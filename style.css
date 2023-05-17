@@ -187,6 +187,14 @@ h2 > span {
   margin-bottom: 0.5em;
 }
 
+.special {
+  font-family: "'Arvo', serif";
+  font-size: 17px;
+  word-spacing: 1px;
+  letter-spacing: 0.4px;
+  padding: 5px 20px;
+  color: rgb(120, 120, 120);
+}
 @media only screen and(max-width:1750) {
   .right_main {
     padding-top: 130px;

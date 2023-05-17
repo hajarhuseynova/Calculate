@@ -194,6 +194,31 @@ h2 > span {
   letter-spacing: 0.4px;
   padding: 5px 20px;
   color: rgb(120, 120, 120);
+  margin-bottom: 1em;
+  margin-top: 0;
+}
+
+#about {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 80px 40px;
+}
+#about_inner > h2 {
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 500;
+  margin-bottom: 0.5em;
+  margin-top: 0;
+}
+#about > img {
+  width: 500px;
+  float: left;
+  max-width: 90%;
+  transform: translateY(100px);
+}
+#about_inner {
+  width: calc(85% - 500px);
+  float: left;
 }
 @media only screen and(max-width:1750) {
   .right_main {

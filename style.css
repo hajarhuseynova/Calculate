@@ -181,36 +181,10 @@ h2 > span {
   margin-right: auto;
   padding-top: 150px;
 }
-
 .word > h2 {
   color: rgba(0, 0, 0, 0.85);
   font-weight: 500;
   margin-bottom: 0.5em;
-}
-@media only screen and(max-width:1750) {
-  .right_main {
-    padding-top: 130px;
-    width: 85%;
-  }
-}
-@media only screen and(max-width:1500) {
-  .right_main {
-    padding-top: 110px;
-    width: 95%;
-  }
-}
-
-@media only screen and(max-width:1200) {
-  .right_main {
-    padding-top: 90px;
-    width: 100%;
-  }
-}
-@media only screen and(max-width:1050) {
-  .right_main {
-    padding-top: 40px;
-    text-align: center;
-  }
 }
 
 @media only screen and(max-width:1750) {

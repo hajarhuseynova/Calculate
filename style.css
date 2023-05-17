@@ -1,0 +1,202 @@
+body {
+  font-family: "Dancing Script", cursive;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+#navbar {
+  height: 70px;
+  width: 100%;
+  background-color: rgb(129, 212, 250);
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+#navbar > a {
+  margin-left: 10px;
+}
+.links {
+  margin-left: auto;
+  margin-right: 20px;
+}
+.links > a {
+  color: white;
+  font-size: 24px;
+  padding: 15px;
+  margin-left: 40px;
+  transition: all 0.4s ease 0s;
+}
+a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: rgb(245, 198, 94);
+}
+
+.right_main {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 150px;
+}
+.right_main > img {
+  width: 600px;
+  float: left;
+  transform: translateY(-65px);
+}
+.left_main {
+  width: calc(100% - 600px);
+  float: left;
+  transition: all 0.2s ease 0s;
+  padding: 40px 50px;
+}
+.left_main > h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 500;
+  margin-top: 0;
+}
+.input {
+  width: 100%;
+  position: relative;
+}
+.input > img {
+  color: #81d4fa;
+  font-size: 27px;
+  left: 8px;
+  position: absolute;
+  top: 14px;
+}
+.input > input {
+  width: 100%;
+  padding: 13px 40px 13px 45px;
+  border: 1px solid rgb(129, 212, 250);
+  outline: none;
+  transition: all 0.2s ease 0s;
+  font-size: 17px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
+  box-shadow: rgba(129, 212, 250, 0.45) 0px 5px 15px;
+  overflow: visible;
+}
+.input > p {
+  font-size: 17px;
+  position: absolute;
+  z-index: 1000;
+  top: 13px;
+  right: 15px;
+  font-family: Arvo, serif;
+  color: rgb(140, 140, 140);
+}
+form > button {
+  width: 100%;
+  padding: 4px;
+  border: none;
+  font-family: "Dancing Script", cursive;
+  color: white;
+  font-weight: 800;
+  font-size: 25px;
+  border-radius: 5px;
+  background-color: rgb(129, 212, 250);
+  transition: all 0.2s ease 0s;
+}
+form > button:hover {
+  background-color: rgba(129, 212, 250, 0.6);
+  transform: translateY(-2px);
+}
+
+.footer {
+  width: 100%;
+  background-color: rgba(129, 212, 250, 0.6);
+  padding: 5px 0px 50px;
+  margin-top: auto;
+}
+.footer > .links {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  text-align: center;
+}
+.footer > a {
+  text-decoration: none;
+  color: black;
+}
+.footerimg {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.footerimg:hover {
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+@media only screen and(max-width:1750) {
+  .right_main {
+    padding-top: 130px;
+    width: 85%;
+  }
+}
+@media only screen and(max-width:1500) {
+  .right_main {
+    padding-top: 110px;
+    width: 95%;
+  }
+}
+
+@media only screen and(max-width:1200) {
+  .right_main {
+    padding-top: 90px;
+    width: 100%;
+  }
+}
+@media only screen and(max-width:1050) {
+  .right_main {
+    padding-top: 40px;
+    text-align: center;
+  }
+}
+
+@media only screen and(max-width:1750) {
+  .right_main {
+    padding-top: 130px;
+    width: 85%;
+  }
+}
+@media only screen and(max-width:1500) {
+  .right_main {
+    padding-top: 110px;
+    width: 95%;
+  }
+  .right_main > img {
+    float: none;
+    width: 350px;
+    max-width: 90%;
+    transform: translateY(0px);
+  }
+}
+
+@media only screen and(max-width:1200) {
+  .right_main {
+    padding-top: 90px;
+    width: 100%;
+  }
+}
+@media only screen and(max-width:1050) {
+  .right_main {
+    padding-top: 40px;
+    text-align: center;
+  }
+}
